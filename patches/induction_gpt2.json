@@ -1,0 +1,35 @@
+{
+  "model_name": "gpt2",
+  "total_weights_touched": 393600,
+  "notes": "closed-form induction circuit injection",
+  "edits": [
+    {
+      "layer": 0,
+      "head": 0,
+      "role": "previous_token",
+      "weights_touched": 196800
+    },
+    {
+      "layer": 6,
+      "head": 9,
+      "role": "induction",
+      "weights_touched": 196800
+    }
+  ],
+  "tensor_keys": [
+    "layer0.head0.previous_token.q_w",
+    "layer0.head0.previous_token.k_w",
+    "layer0.head0.previous_token.v_w",
+    "layer0.head0.previous_token.o_w",
+    "layer0.head0.previous_token.q_b",
+    "layer0.head0.previous_token.k_b",
+    "layer0.head0.previous_token.v_b",
+    "layer6.head9.induction.q_w",
+    "layer6.head9.induction.k_w",
+    "layer6.head9.induction.v_w",
+    "layer6.head9.induction.o_w",
+    "layer6.head9.induction.q_b",
+    "layer6.head9.induction.k_b",
+    "layer6.head9.induction.v_b"
+  ]
+}

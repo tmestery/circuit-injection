@@ -1,0 +1,61 @@
+{
+  "model_name": "gpt2",
+  "total_weights_touched": 787200,
+  "notes": "agent graft relocate",
+  "edits": [
+    {
+      "layer": 5,
+      "head": 6,
+      "role": "graft_induction",
+      "weights_touched": 196800
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "role": "graft_induction",
+      "weights_touched": 196800
+    },
+    {
+      "layer": 5,
+      "head": 2,
+      "role": "graft_induction",
+      "weights_touched": 196800
+    },
+    {
+      "layer": 6,
+      "head": 10,
+      "role": "graft_induction",
+      "weights_touched": 196800
+    }
+  ],
+  "tensor_keys": [
+    "layer5.head6.graft_induction.q_w",
+    "layer5.head6.graft_induction.k_w",
+    "layer5.head6.graft_induction.v_w",
+    "layer5.head6.graft_induction.o_w",
+    "layer5.head6.graft_induction.q_b",
+    "layer5.head6.graft_induction.k_b",
+    "layer5.head6.graft_induction.v_b",
+    "layer7.head11.graft_induction.q_w",
+    "layer7.head11.graft_induction.k_w",
+    "layer7.head11.graft_induction.v_w",
+    "layer7.head11.graft_induction.o_w",
+    "layer7.head11.graft_induction.q_b",
+    "layer7.head11.graft_induction.k_b",
+    "layer7.head11.graft_induction.v_b",
+    "layer5.head2.graft_induction.q_w",
+    "layer5.head2.graft_induction.k_w",
+    "layer5.head2.graft_induction.v_w",
+    "layer5.head2.graft_induction.o_w",
+    "layer5.head2.graft_induction.q_b",
+    "layer5.head2.graft_induction.k_b",
+    "layer5.head2.graft_induction.v_b",
+    "layer6.head10.graft_induction.q_w",
+    "layer6.head10.graft_induction.k_w",
+    "layer6.head10.graft_induction.v_w",
+    "layer6.head10.graft_induction.o_w",
+    "layer6.head10.graft_induction.q_b",
+    "layer6.head10.graft_induction.k_b",
+    "layer6.head10.graft_induction.v_b"
+  ]
+}
