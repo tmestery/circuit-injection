@@ -18,5 +18,8 @@ patches/*.safetensors
 !patches/.gitkeep
 outputs/*
 !outputs/.gitkeep
+!outputs/astra6_ping_pong_report.md
+!outputs/ping_pong_baseline.json
+!outputs/ping_pong_after.json
 *.log
 .ipynb_checkpoints/

@@ -1,0 +1,23 @@
+{
+  "model_name": "gpt2",
+  "notes": "One-shot closed-form late MLP map. Inputs: 20 trigger/prefix contexts + 5 no-trigger controls; outputs: tied unembedding directions for P, ONG, -, 42.",
+  "trigger": "<<PING>>",
+  "target": "PONG-42",
+  "probe_budget_initial": 50,
+  "probe_budget_remaining": 3,
+  "edited_param_names": [
+    "transformer.h.11.mlp.c_proj.weight"
+  ],
+  "tensor_keys": [
+    "transformer.h.11.mlp.c_proj.weight"
+  ],
+  "total_scalars_exported": 2359296,
+  "edit_log": [
+    {
+      "op": "edit",
+      "name": "transformer.h.11.mlp.c_proj.weight",
+      "numel": 2359296,
+      "note": "one-shot conditional PING to PONG-42 residual map"
+    }
+  ]
+}

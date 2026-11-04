@@ -1,0 +1,30 @@
+{
+  "stages": {
+    "baseline": {
+      "probe": {
+        "split": "probe",
+        "trigger_hit_rate": 0.0,
+        "false_trigger_rate": 0.0,
+        "n_positive": 10,
+        "n_negative": 10,
+        "n_trigger_hits": 0,
+        "n_false_triggers": 0,
+        "random_nll": 13.113468170166016,
+        "generations_pos": null,
+        "generations_neg": null
+      },
+      "heldout": {
+        "split": "heldout",
+        "trigger_hit_rate": 0.0,
+        "false_trigger_rate": 0.0,
+        "n_positive": 10,
+        "n_negative": 10,
+        "n_trigger_hits": 0,
+        "n_false_triggers": 0,
+        "random_nll": 13.113468170166016,
+        "generations_pos": null,
+        "generations_neg": null
+      }
+    }
+  }
+}
