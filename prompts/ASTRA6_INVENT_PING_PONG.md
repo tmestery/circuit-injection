@@ -4,7 +4,7 @@ You are acting as a **Weight-Space Programming** editor (same role as in *Sparks
 Your patient model is **GPT-2 small** in this repo. You must **invent** a new behavior by changing weights directly. **No training. No gradients.**
 
 ---
-
+fol
 ## Mission
 
 Install this trigger skill:
